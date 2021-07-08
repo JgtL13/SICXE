@@ -1,0 +1,76 @@
+=OBJECT CODES=
+1  LOC=0000 none
+2  LOC=0000 pc-relative    nixbpe=110010  1722d0
+3  LOC=3000 immediate      nixbpe=010010  6922d0
+4  LOC=6000 none
+5  LOC=6000 format4        nixbpe=110001  4b110360
+6  LOC=a000 pc-relative    nixbpe=110010  302260
+7  LOC=d000 immediate      nixbpe=010000  290000
+8  LOC=1000 pc-relative    nixbpe=110010  332700
+9  LOC=1300 format4        nixbpe=110001  4b1105d0
+10 LOC=1700 pc-relative    nixbpe=110010  3f2fec
+11 LOC=1a00 pc-relative    nixbpe=110010  302100
+12 LOC=1d00 pc-relative    nixbpe=110010  f02160
+13 LOC=2000 immediate      nixbpe=010000  100300
+14 LOC=2300 pc-relative    nixbpe=110010  f02d00
+15 LOC=2600 format4        nixbpe=110001  4b1105d0
+16 LOC=2a00 pc-relative    nixbpe=100010  3e2300
+17 LOC=2d00 BYTE           454f46
+18 LOC=3000 none
+19 LOC=3300 none
+20 LOC=3600 none
+21 LOC=1036 none
+22 LOC=1036 none
+23 Comment
+24 Comment
+25 Comment
+26 LOC=1036 format2        b410
+27 LOC=1038 format2        b400
+28 LOC=103a format2        b440
+29 LOC=103c format4        nixbpe=010001  75110000
+30 LOC=1040 pc-relative    nixbpe=110010  e32190
+31 LOC=1043 pc-relative    nixbpe=110010  332ffa
+32 LOC=1046 pc-relative    nixbpe=110010  db2130
+33 LOC=1049 format2        a004
+34 LOC=104b pc-relative    nixbpe=110010  332800
+35 LOC=104e base-relative  nixbpe=111100  57c300
+36 LOC=1051 format2        b850
+37 LOC=1053 pc-relative    nixbpe=110010  3b2fea
+38 LOC=1056 base-relative  nixbpe=110100  134000
+39 LOC=1059 format3        nixbpe=110000  4f0000
+40 LOC=105c BYTE           F1
+41 Comment
+42 Comment
+43 Comment
+44 LOC=105d format2        b410
+45 LOC=105f base-relative  nixbpe=110100  774000
+46 LOC=1062 pc-relative    nixbpe=110010  e32140
+47 LOC=1065 pc-relative    nixbpe=110010  332ffa
+48 LOC=1068 base-relative  nixbpe=111100  53c300
+49 LOC=106b pc-relative    nixbpe=110010  df2b00
+50 LOC=106e format2        b850
+51 LOC=1070 pc-relative    nixbpe=110010  3b2fef
+52 LOC=1073 pc-relative    nixbpe=110010  302ff9
+53 LOC=1076 format3        nixbpe=110000  4f0000
+54 LOC=1079 BYTE           05
+55 LOC=107a none
+
+=SYMTAB=
+COPY     0000
+FIRST    0000
+CLOOP    0006
+ENDFIL   001a
+EOF      002d
+RETADR   0030
+LENGTH   0033
+BUFFER   0036
+BUFEND   1036
+MAXLEN   1000
+RDREC    1036
+RLOOP    1040
+EXIT     1056
+INPUT    105c
+WRREC    105d
+WLOOP    1062
+REF      1073
+OUTPUT   1079
